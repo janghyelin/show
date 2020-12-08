@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8">
+ <title>웹프로그래밍 기말과제</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+    header{
+        padding: 7px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: bold;
+          }
+    nav{
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(243, 178, 245);
+        border-bottom: 5px solid #333;
+        border-top: 5px solid #333;
+}
+    nav>a{
+       color: rgb(0, 0, 0);
+       margin: 0 10px ;}
+       
+    nav :hover{
+        background-color: rgb(173, 0, 253);
+        color: rgb(255, 255, 255); }
+
+    #div_a{
+        padding: 5px;
+         margin: 10PX 20px 20PX 20PX;
+        float: left;
+        border: 1px solid black;
+        background-color: white;
+            }
+    h2 {color: blueviolet; 
+    text-align: center;
+    font-size: 2em
+}
+    
+    h1 {color: blueviolet; 
+    text-align: center;
+    font-size: 2em;}
+  
+    #paint{
+        background-color: rgb(242, 231, 248);
+        text-align: center;
+        font-style: italic;
+    }
+
+    footer{
+                padding: 0px;
+                background-color: darkgray;
+                text-align: center;
+            }
+
+            footer{
+                padding: 10px;
+            }
+            
+            
+    
+    </style>
+
+
+</head>
+
+<body>
+
+    <form method="post" action="form_app.js">
+        아이디 : &nbsp; <input type="text" name ="id"> 
+        비밀번호: <input type="password" name="pwd">
+        <input type="submit" value="전송하기"/>
+    </form> 
+
+    <header>
+        <h3>showgift</h3>
+   </header>
+
+   <nav>
+     <a href="#">MY PAGE</a>
+     <a href="#">EVENT</a>
+     <a href="#">REVIEW</a>
+     <a href="#">MEMBERSHIP</a>
+   </nav>
+
+   <section>
+
+    <div id="div_a">
+        <img src="설문조사.PNG" alt="설문조사">
+        <p><b><mark>가성비 좋은 20대 초반 여성 생일 선물</mark></b></p>
+        <ul>
+            <li>><a href="#">생일선물</a></li>
+            <br>
+            <li><a href="#">20대 초반</a></li>
+            <br>
+            <li><a href="#">여성</a></li>
+        </ul>
+    </div>
+
+<article>
+    <h1> best 3 추천 선물 </h1>
+
+    <div class="main-container"> 
+        
+        <figure>
+            <p style="font-size: 20px;" ><strong style="color: blueviolet;">1위</strong><b> emis 에코백</b></p>
+              <img src="가방.jpg" width='310px' height='320px' alt="가방">
+              <figcaption>가격-32,000원</figcaption>
+        </figure>
+              
+
+      
+        <figure>
+            <p style="font-size: 20px;"><strong style="color: blueviolet;">2위</strong><b> 예쁜 잠옷</b></p>
+            <img src="잠옷.jpg" width='310px' height='320px' alt="잠옷">
+            <figcaption>가격-20,000원</figcaption>
+        </figure>
+            
+
+           
+            <figure>
+                <p style="font-size: 20px;"><strong style="color: blueviolet;">3위</strong><b> 스타벅스 텀블러</b></p>
+                  <img src="텀블러.jpg" width='310px' height='320px' alt="텀블러">
+                  <figcaption>가격-32,000원</figcaption>
+                </figure>
+                
+    </div>>        
+</article>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</article>
+   <h2> 해시태그 추천 </h2>
+
+        <div class="main-container"> 
+             
+          
+                 <a href="#"> <img src="꽃.jpg" width='250px' height='250px' alt="꽃">
+                 </a>  
+        
+               <a href="#"> <img src="핸드폰.jpg" width='250px' height='250px' alt="핸폰케이스">
+               </a>   
+           
+               <a href="#"><img src="노트북.jpg" width='250px' height='250px' alt="노트북파우치">
+               </a>  
+           
+               <a href="#">
+                     <img src="향수.jpg" width='250px' height='250px' alt="향수">
+               </a>  
+            </div>
+        
+            <div class="main-container"> 
+              <a href="#"> <img src="다이어리.jpg" width='250px' height='250px'alt="다이어리">
+              </a>  
+        
+            <a href="#"> <img src="구두.jpg"width='250px' height='250px' alt="구두">
+            </a>   
+        
+            <a href="#"><img src="케익.jpg" width='250px' height='250px' alt="케익">
+            </a>  
+       
+            <a href="#">
+                  <img src="모델.jpg"width='250px' height='250px' alt="잠옷">
+            </a>  
+        </div>
+</article>
+   
+<br>
+<br>
+<br>
+
+   <article>
+    <h2 style="margin: 0; padding-top: 20px;"><b>웹 유저들의 선물 후기</b></h2>
+
+    <div id="paint">
+        <h3>스타벅스 텀블러</h3>
+        <img src="텀블러.jpg"width='250px' height='250px' alt="텀블러" class="img-fluid">
+        <p><mark>환경, 디자인까지 생각한 스타벅스 텀블러!</mark></p>
+        <p> 친구가 정말 좋아해요!
+            스벅 매니아인거 어떻게
+            알았냐면서 항상 가지고 다닌다고하니
+            너무 뿌듯하네요!! ㅎㅎ
+            </p>
+        <p>학생들에겐 가격이 부담스러울 수 있지만 3만원 정도로 평생 소장할 수 있으니 좋아요!</p>
+        </div>
+
+<br>
+<br>
+
+    
+   </article>
+</section>
+
+<footer>
+     <p>협찬 링크</p>
+        <a href="http://www.10x10.co.kr/">텐바이텐 바로가기</a>
+        <a href="https://www.musinsa.com/">무신사 바로가기</a>
+    
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.main-container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+  
+@media (max-width: 700px) {
+  .main-container {
+    a
+    padding: 8px;
+  }
+ 
+
+  @media screen and (max-width: 1500px) 
+  {
+    .navbar,
+    .container,
+    .wrapper,
+    body {
+      flex-direction: column;
+      background-color:rgb(121, 2, 121);
+    }
+  }
+
+
+
